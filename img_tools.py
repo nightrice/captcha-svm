@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 """
 一些图像处理工具
 """
@@ -183,7 +184,7 @@ def print_line_x(img, x):
     """
     print("line:%s" % x)
     for w in range(img.width):
-        print(img.getpixel((w, x)), end='')
+        print(img.getpixel((w, x)))
     print('')
 
 
@@ -197,7 +198,7 @@ def print_bin(img):
     print('current binary output,width:%s-height:%s\n')
     for h in range(img.height):
         for w in range(img.width):
-            print(img.getpixel((w, h)), end='')
+            print(img.getpixel((w, h)))
         print('')
 
 
